@@ -1,0 +1,48 @@
+/* Forecast.css */
+
+/* Forecast.css */
+
+.table-container {
+    width: calc(100% - 70px); /* Adjust margin as needed */
+    overflow-x: auto;
+    margin-left: 30px; /* Adjust left margin as needed */
+    margin-right: 10px; /* Adjust right margin as needed */
+    margin-top: 50px;
+  }
+  
+  .forecast-table {
+    width: 100%;
+    border-spacing: 0; /* Remove default spacing between table cells */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: rgba(90, 132, 202, 0.1);
+
+  }
+  
+  .forecast-table th,
+  .forecast-table td {
+    border: none; /* Remove individual cell borders */
+    padding: 3px;
+    text-align: center;
+  }
+
+  .forecast-table td {
+     color: rgb(33, 32, 32);
+  }
+  
+  .forecast-table th {
+    background-color: #e8e7e7;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .forecast-table {
+      font-size: 12px;
+    }
+    .forecast-table td{
+        padding:1px;
+
+    }
+  }
+  
+  

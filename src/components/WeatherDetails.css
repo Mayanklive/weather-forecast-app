@@ -1,0 +1,50 @@
+/* WeatherDetails.css */
+
+/* WeatherDetails.css */
+
+/* WeatherDetails.css */
+
+.weather-details-container {
+    text-align: center;
+  }
+  
+  .temperature-container {
+    position: relative;
+    display: inline-block;
+    color: #36454F;
+  }
+
+  /* .weather-details-container p{
+    color: #28282B;
+  } */
+
+  .weather-description{
+    color: #28282B;
+  }
+  
+  .temperature {
+    font-size: 8em;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    /* margin-left: 35px; */
+
+    cursor: pointer;
+    background-color: #87ceeb; /* Sky Blue color */
+    border: none;
+    color: white;
+    padding: 2px 5px; /* Adjust padding for smaller button */
+    border-radius: 4px;
+    font-size: 12.2px;
+  }
+  
+  @media (max-width: 600px){
+    
+  }
+  
+  
